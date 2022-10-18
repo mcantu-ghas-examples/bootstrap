@@ -12,8 +12,8 @@ on:
       - main
       - v4-dev
       - "!dependabot/**"
-  schedule:
-    - cron: "0 2 * * 5"
+#  schedule:
+#    - cron: "0 2 * * 5"
   workflow_dispatch:
 
 jobs:
@@ -32,6 +32,7 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v2
         with:
+          queries: security-and-quality
           languages: "javascript"
 
       - name: Perform CodeQL Analysis
