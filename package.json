@@ -126,7 +126,7 @@
     "globby": "^11.1.0",
     "hammer-simulator": "0.0.1",
     "hugo-bin": "^0.92.2",
-    "ip": "^2.0.0",
+    "ip": "^2.0.1",
     "jquery": "^3.6.1",
     "karma": "^6.4.1",
     "karma-browserstack-launcher": "1.4.0",
